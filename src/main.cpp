@@ -6,6 +6,7 @@ void setup() {
     // write your initialization code here
     pinMode(trigPin, OUTPUT);
     pinMode(echoPin, INPUT);
+    Serial.begin(9600);
 }
 
 void loop() {
